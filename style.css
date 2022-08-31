@@ -526,6 +526,7 @@ button {
   }
   .flex-item h4 {
     white-space: unset;
+    font-size: 26px;
   }
   .flex-item button {
     margin-top: 24px;
