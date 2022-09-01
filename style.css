@@ -249,9 +249,13 @@ h4 {
 .images {
   margin-top: 56px;
   display: flex;
-  justify-content: center;
+  gap: 30px;
+  
   width: 100%;
+  overflow: hidden;
+  scroll-behavior: smooth;
 }
+
 .images img {
   height: 360px;
   min-width: 540px;
@@ -259,12 +263,8 @@ h4 {
   width: 100%;
 }
 
-.pirveli {
-  display: none;
-}
-.bolo {
-  display: none;
-}
+
+
 
 .igive {
   height: 64px;
